@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : python-constantly
+version     : "23.10.4"
+release     : 1
+homepage    : https://github.com/twisted/constantly
+upstreams   :
+    - https://github.com/twisted/constantly/archive/refs/tags/23.10.4.tar.gz : c158c7a71ced2a77471ae851089b4ea15c15fce968d3f0105a15819666cd641a
+summary     : Symbolic Constants in Python
+description : |
+    A library that provides symbolic constant support. It includes collections and constants with text, numeric, and bit flag values.
+license     : 
+    - MIT
+builddeps   :
+    - python(setuptools)
+    - python(versioneer)
+build       : |
+    %python_setup
+install     : |
+    %python_install

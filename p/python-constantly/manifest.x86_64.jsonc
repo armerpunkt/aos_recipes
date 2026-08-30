@@ -1,0 +1,35 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"python-constantly": {
+			"build-depends": [
+				"python(setuptools)",
+				"python(versioneer)"
+			],
+			"files": [
+				"/usr/lib/python3.14/site-packages/constantly-23.10.4-py3.14.egg-info/PKG-INFO",
+				"/usr/lib/python3.14/site-packages/constantly-23.10.4-py3.14.egg-info/SOURCES.txt",
+				"/usr/lib/python3.14/site-packages/constantly-23.10.4-py3.14.egg-info/dependency_links.txt",
+				"/usr/lib/python3.14/site-packages/constantly-23.10.4-py3.14.egg-info/top_level.txt",
+				"/usr/lib/python3.14/site-packages/constantly/__init__.py",
+				"/usr/lib/python3.14/site-packages/constantly/__pycache__/__init__.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/constantly/__pycache__/_constants.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/constantly/__pycache__/_version.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/constantly/_constants.py",
+				"/usr/lib/python3.14/site-packages/constantly/_version.py",
+				"/usr/lib/python3.14/site-packages/constantly/test/__init__.py",
+				"/usr/lib/python3.14/site-packages/constantly/test/__pycache__/__init__.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/constantly/test/__pycache__/test_constants.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/constantly/test/test_constants.py"
+			],
+			"name": "python-constantly",
+			"provides": [
+				"python(constantly)"
+			]
+		}
+	},
+	"source-name": "python-constantly",
+	"source-release": "1",
+	"source-version": "23.10.4"
+}
