@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : python-zope.interface
+version     : "8.6"
+release     : 1
+homepage    : https://github.com/zopefoundation/zope.interface
+upstreams   :
+    - https://github.com/zopefoundation/zope.interface/archive/refs/tags/8.6.tar.gz : d359d62efc1bd7bde7108d7be3510627bdf18d468560d1c42dd1cd1d275bb529
+summary     : Interfaces for Python
+description : |
+    This package provides an implementation of "object interfaces" for Python. Interfaces are a mechanism for labeling objects as conforming to a given API or contract. So, this package can be considered as implementation of the Design By Contract methodology support in Python.
+license     :
+    - ZPL-2.1
+builddeps   :
+    - python(setuptools)
+build       : |
+    %pyproject_build
+install     : |
+    %pyproject_install
