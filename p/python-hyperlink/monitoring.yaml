@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+releases:
+  id: 19142
+  rss: https://github.com/python-hyper/hyperlink/tags.atom
+security:
+  cpe: ~

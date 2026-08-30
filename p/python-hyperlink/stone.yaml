@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : python-hyperlink
+version     : "21.0.0"
+release     : 1
+homepage    : https://github.com/python-hyper/hyperlink
+upstreams   :
+    - https://github.com/python-hyper/hyperlink/archive/refs/tags/v21.0.0.tar.gz : 6fdef854115f413e5d8a0241e1e67e93f0bd29c1d1317a742f3fdb189e1d57b5
+summary     : Immutable, Pythonic, correct URLs.
+description : |
+    Hyperlink provides a pure-Python implementation of immutable URLs. Based on RFC 3986 and 3987, the Hyperlink URL makes working with both URIs and IRIs easy.
+license     : MIT
+builddeps   :
+    - python(setuptools)
+rundeps     :
+    - python(idna)
+build       : |
+    %pyproject_build
+install     : |
+    %pyproject_install

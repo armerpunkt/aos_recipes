@@ -1,0 +1,69 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"python-hyperlink": {
+			"build-depends": [
+				"python(setuptools)"
+			],
+			"depends": [
+				"python(idna)"
+			],
+			"files": [
+				"/usr/lib/python3.14/site-packages/hyperlink-21.0.0.dist-info/METADATA",
+				"/usr/lib/python3.14/site-packages/hyperlink-21.0.0.dist-info/RECORD",
+				"/usr/lib/python3.14/site-packages/hyperlink-21.0.0.dist-info/WHEEL",
+				"/usr/lib/python3.14/site-packages/hyperlink-21.0.0.dist-info/licenses/LICENSE",
+				"/usr/lib/python3.14/site-packages/hyperlink-21.0.0.dist-info/top_level.txt",
+				"/usr/lib/python3.14/site-packages/hyperlink/__init__.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/__init__.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/__init__.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/_socket.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/_socket.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/_url.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/_url.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/hypothesis.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/__pycache__/hypothesis.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/_socket.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/_url.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/hypothesis.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/idna-tables-properties.csv.gz",
+				"/usr/lib/python3.14/site-packages/hyperlink/py.typed",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__init__.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/__init__.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/__init__.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/common.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/common.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_common.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_common.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_decoded_url.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_decoded_url.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_hypothesis.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_hypothesis.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_parse.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_parse.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_scheme_registration.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_scheme_registration.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_socket.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_socket.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_url.cpython-314.opt-1.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/__pycache__/test_url.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/common.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_common.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_decoded_url.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_hypothesis.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_parse.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_scheme_registration.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_socket.py",
+				"/usr/lib/python3.14/site-packages/hyperlink/test/test_url.py"
+			],
+			"name": "python-hyperlink",
+			"provides": [
+				"python(hyperlink)"
+			]
+		}
+	},
+	"source-name": "python-hyperlink",
+	"source-release": "1",
+	"source-version": "21.0.0"
+}
