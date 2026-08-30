@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : python-incremental
+version     : "24.11.0"
+release     : 1
+homepage    : https://github.com/twisted/incremental
+upstreams   :
+    - https://github.com/twisted/incremental/archive/refs/tags/incremental-24.11.0.tar.gz : 7e6864d90bfe764fd5073593c47aa8cdf0197e9491aafe2d30b6779c4d3f7188
+summary     : A library for versioning your Python projects
+description : |
+    Incremental is a small library that versions your Python projects.
+license     : MIT
+builddeps   :
+    - python(hatchling)
+    - python(setuptools)
+build       : |
+    %pyproject_build
+install     : |
+    %pyproject_install
