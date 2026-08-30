@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+releases:
+  id: 4071
+  rss: https://github.com/twisted/twisted/releases.atom
+security:
+  cpe:
+  - vendor: twisted
+    product: twisted

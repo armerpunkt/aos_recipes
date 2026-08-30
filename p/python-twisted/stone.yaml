@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : python-twisted
+version     : "26.4.0"
+release     : 1
+homepage    : https://github.com/twisted/twisted
+upstreams   :
+    - https://github.com/twisted/twisted/archive/refs/tags/twisted-26.4.0.tar.gz : 582b295218032f3d76745a1c1cee4937bb419318516a5b8d848be8dfc5767684
+summary     : Python Twisted module
+description : |
+    Twisted is a Python event-based framework for internet applications. It includes modules for many different purposes
+license     : MIT
+builddeps   :
+    - python(hatch-fancy-pypi-readme)
+    - python(hatchling)
+    - python(incremental)
+    - python(setuptools)
+rundeps     :
+    - python-libs
+    - python(automat)
+build       : |
+    %pyproject_build
+install     : |
+    %pyproject_install
