@@ -1,0 +1,30 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"python-versioneer": {
+			"build-depends": [
+				"python(setuptools)"
+			],
+			"files": [
+				"/usr/bin/versioneer",
+				"/usr/lib/python3.14/site-packages/__pycache__/versioneer.cpython-314.pyc",
+				"/usr/lib/python3.14/site-packages/versioneer-0.29-py3.14.egg-info/PKG-INFO",
+				"/usr/lib/python3.14/site-packages/versioneer-0.29-py3.14.egg-info/SOURCES.txt",
+				"/usr/lib/python3.14/site-packages/versioneer-0.29-py3.14.egg-info/dependency_links.txt",
+				"/usr/lib/python3.14/site-packages/versioneer-0.29-py3.14.egg-info/entry_points.txt",
+				"/usr/lib/python3.14/site-packages/versioneer-0.29-py3.14.egg-info/requires.txt",
+				"/usr/lib/python3.14/site-packages/versioneer-0.29-py3.14.egg-info/top_level.txt",
+				"/usr/lib/python3.14/site-packages/versioneer.py"
+			],
+			"name": "python-versioneer",
+			"provides": [
+				"binary(versioneer)",
+				"python(versioneer)"
+			]
+		}
+	},
+	"source-name": "python-versioneer",
+	"source-release": "1",
+	"source-version": "0.29"
+}
